@@ -1,0 +1,5 @@
+message = ("Hello Python world!")
+print(message)
+#updating the value of variable message 
+message = ("Hello Python Crash Course world!")
+print(message)
