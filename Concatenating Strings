@@ -1,0 +1,29 @@
+#program 1 :
+
+  first_name = "ada"
+  last_name = "lovelace"
+  full_name = first_name + " " + last_name
+  print(full_name)
+  
+ output : ada lovelace
+
+
+#program 2 : 
+  
+  first_name = "ada"
+  last_name = "lovelace"
+  full_name = first_name + " " + last_name
+  print("Hello, " + full_name.title() + "!")
+  
+ output : Hello, Ada Lovelace!
+ 
+ 
+ #program 3 :
+ 
+  first_name = "ada"
+  last_name = "lovelace"
+  full_name = first_name + " " + last_name
+  message = "Hello, " + full_name.title() + "!"
+  print(message)
+  
+ output : Hello, Ada Lovelace!
