@@ -1,0 +1,18 @@
+#program 1 :
+
+	print ("Languages:\nPython\nC\nJavaScript") 
+	
+output : Languages:
+				 Python
+         C
+         JavaScript 
+
+
+#program 2 : 
+	
+	 print("Languages:\n\tPython\n\tC\n\tJavaScript") 
+	 
+output : Languages:
+ 				 	Python
+         	C
+         	JavaScript  
