@@ -3,3 +3,7 @@ print(message)
 #updating the value of variable message 
 message = ("Hello Python Crash Course world!")
 print(message)
+
+
+o/p : Hello Python world!
+      Hello Python Crash Course world!
