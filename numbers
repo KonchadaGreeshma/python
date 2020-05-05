@@ -1,0 +1,30 @@
+#program 14
+  print(4+2)
+  print(4-2)
+  print(4*2)
+  print(4/2)
+  print(4**2)
+  print(4%2)
+  
+o/p : 6
+      2
+      8
+      2
+      16
+      0
+      
+#program 2:
+  print("4+2")
+  print("4-2")
+  print("4*2")
+  print("4/2")
+  print("4**2")
+  print("4%2")
+  
+ o/p : 4+2
+       4-2
+       4*2
+       4/2
+       4**2
+       4%2
+  
