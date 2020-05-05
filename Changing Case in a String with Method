@@ -1,0 +1,13 @@
+#program 1:
+  name = "ada lovelace"
+  print(name.title())
+
+output : Ada Lovelace
+
+
+#program 2:
+  name = "Ada Lovelace"
+  print(name.upper())
+  print(name.lower())
+output : ADA LOVELACE
+         ada lovelace
