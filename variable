@@ -1,2 +1,5 @@
 message = "This is a variable called message holds the information"
 print(message)
+
+o/p : This is a variable called message holds the information
+
