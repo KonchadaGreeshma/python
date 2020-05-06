@@ -1,0 +1,52 @@
+#PROGRAM 1 : 
+
+    cars = ['bmw', 'audi', 'toyota', 'subaru']
+    cars.sort()
+    print(cars)
+    
+OUTPUT : ['audi', 'bmw', 'subaru', 'toyota'] 
+
+
+#PROGRAM 2 :
+
+    cars = ['bmw', 'audi', 'toyota', 'subaru']
+    cars.sort(reverse=True)
+    print(cars)
+   
+OUTPUT : ['toyota', 'subaru', 'bmw', 'audi'] 
+
+
+#PROGRAM 3 :
+
+    cars = ['bmw', 'audi', 'toyota', 'subaru']
+    print("Here is the original list:")
+    print(cars)
+    print("\nHere is the sorted list:")
+    print(sorted(cars))
+    print("\nHere is the original list again:")
+    print(cars)
+    
+OUTPUT : Here is the original list:
+         ['bmw', 'audi', 'toyota', 'subaru']
+         Here is the sorted list:
+         ['audi', 'bmw', 'subaru', 'toyota']
+         Here is the original list again:
+         ['bmw', 'audi', 'toyota', 'subaru']
+         
+         
+#PROGRAM 4 :
+
+    cars = ['bmw', 'audi', 'toyota', 'subaru']
+    print(cars)
+    cars.reverse()
+    print(cars)
+  
+OUTPUT : ['bmw', 'audi', 'toyota', 'subaru']
+         ['subaru', 'toyota', 'audi', 'bmw']
+         
+ #PROGRAM 5 :
+ 
+     cars = ['bmw', 'audi', 'toyota', 'subaru']
+     len(cars)
+     
+OUTPUT : 4
