@@ -1,0 +1,36 @@
+#PROGRAM 1 :
+
+    dimensions = (200, 50)
+    print(dimensions[0])
+    print(dimensions[1])
+    
+OUTPUT : 200
+         50
+         
+#PROGRAM 2 : 
+ 
+    dimensions = (200, 50)
+    for dimension in dimensions:
+      print(dimension)
+      
+ OUTPUT : 200
+          50 
+          
+#PROGRAM 3 :
+
+    dimensions = (200, 50)
+    print("Original dimensions:")
+    for dimension in dimensions:
+      print(dimension)
+
+    dimensions = (400, 100)
+    print("\nModified dimensions:")
+    for dimension in dimensions:
+      print(dimension)
+      
+OUTPUT : Original dimensions:
+         200
+         50
+         Modified dimensions:
+         400
+         100
