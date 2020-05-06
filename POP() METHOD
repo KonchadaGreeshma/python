@@ -1,0 +1,55 @@
+#PROGRAM 1 : 
+
+  motorcycles = ['honda', 'yamaha', 'suzuki']
+  print(motorcycles)
+  popped_motorcycle = motorcycles.pop()
+  print(motorcycles)
+  print(popped_motorcycle)
+  
+OUTPUT : ['honda', 'yamaha', 'suzuki']
+         ['honda', 'yamaha']
+         suzuki
+         
+       
+#PROGRAM 2 :
+
+    motorcycles = ['honda', 'yamaha', 'suzuki']
+    last_owned = motorcycles.pop()
+    print("The last motorcycle I owned was a " + last_owned.title() + ".")
+    
+OUTPUT : The last motorcycle I owned was a Suzuki.
+
+
+#PROGRAM 3 :
+  
+    motorcycles = ['honda', 'yamaha', 'suzuki']
+    first_owned = motorcycles.pop(0)
+    print('The first motorcycle I owned was a ' + first_owned.title() + '.')
+    
+OUTPUT : The first motorcycle I owned was a Honda.
+
+
+#PROGRAM 4 :
+
+    motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+    print(motorcycles)
+    motorcycles.remove('ducati')
+    print(motorcycles)
+
+OUTPUT : ['honda', 'yamaha', 'suzuki', 'ducati']
+         ['honda', 'yamaha', 'suzuki'] 
+         
+
+#PROGRAM 5 :
+
+    motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+    print(motorcycles)
+    too_expensive = 'ducati'
+    motorcycles.remove(too_expensive)
+    print(motorcycles)
+    print("\nA " + too_expensive.title() + " is too expensive for me.")
+    
+OUTPUT : ['honda', 'yamaha', 'suzuki', 'ducati']
+         ['honda', 'yamaha', 'suzuki']
+         A Ducati is too expensive for me.
+   
