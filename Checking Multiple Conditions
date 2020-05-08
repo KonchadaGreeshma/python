@@ -1,0 +1,39 @@
+#PROGRAM 1 :
+    
+    age_0 = 22
+    age_1 = 18
+    
+    age_0 >= 21 and age_1 >= 21
+      False 
+       
+    age_1 = 22
+    age_0 >= 21 and age_1 >= 21
+      True 
+      
+#PROGRAM 2 : 
+
+     age_0 = 22
+     age_1 = 18
+     age_0 >= 21 or age_1 >= 21
+     True
+     age_0 = 18
+     age_0 >= 21 or age_1 >= 21
+     False 
+     
+     
+ #PROGRAM 3 : 
+ 
+         requested_toppings = ['mushrooms', 'onions', 'pineapple']
+        'mushrooms' in requested_toppings
+          True
+        'pepperoni' in requested_toppings
+          False
+          
+ #PROGRAM 4 :
+ 
+        banned_users = ['andrew', 'carolina', 'david']
+        users.py user = 'marie'
+        if user not in banned_users:
+          print(user.title() + ", you can post a response if you wish.")
+          
+OUTPUT : Marie, you can post a response if you wish.
