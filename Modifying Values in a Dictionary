@@ -1,0 +1,53 @@
+#PROGRAM 1 :
+
+      alien_0 = {'x_position': 0, 'y_position': 25, 'speed': 'medium'}
+      print("Original x-position: " + str(alien_0['x_position']))
+      if alien_0['speed'] == 'slow':
+        x_increment = 1
+      elif alien_0['speed'] == 'medium':
+        x_increment = 2
+      else:
+        x_increment = 3
+      alien_0['x_position'] = alien_0['x_position'] + x_increment
+      print("New x-position: " + str(alien_0['x_position']))
+      
+      
+OUTPUT : Original x-position: 0
+         New x-position: 2
+         
+        
+#PROGRAM 2 :
+
+     alien_0 = {'color': 'green', 'points': 5}
+     print(alien_0)
+     del alien_0['points']
+     print(alien_0)
+     
+OUTPUT : {'color': 'green', 'points': 5}
+         {'color': 'green'}
+         
+         
+#PROGRAM 3 :
+
+      user_0 = {
+                'username': 'efermi',
+                'first': 'enrico',
+                'last': 'fermi',
+               }
+      for key, value in user_0.items():
+        print("\nKey: " + key)
+        print("Value: " + value)
+
+
+OUTPUT : Key: last
+         Value: fermi
+
+         Key: first
+         Value: enrico
+         
+         Key: username
+         Value: efermi
+         
+
+
+         
