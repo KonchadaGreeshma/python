@@ -1,0 +1,63 @@
+#PROGRAM 1 :
+
+      alien_0 = {'color': 'green', 'points': 5}
+      alien_1 = {'color': 'yellow', 'points': 10}
+      alien_2 = {'color': 'red', 'points': 15}
+      aliens = [alien_0, alien_1, alien_2]
+      for alien in aliens:
+        print(alien)
+        
+OUTPUT :  {'color': 'green', 'points': 5}
+          {'color': 'yellow', 'points': 10}
+          {'color': 'red', 'points': 15}
+          
+#PROGRAM 2 : 
+
+    aliens = []
+    for alien_number in range(30):
+      new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+      aliens.append(new_alien)
+    
+    for alien in aliens[:5]:
+      print(alien)
+      print("...")
+    print("Total number of aliens: " + str(len(aliens)))
+    
+OUTPUT :  {'speed': 'slow', 'color': 'green', 'points': 5}
+          {'speed': 'slow', 'color': 'green', 'points': 5}
+          {'speed': 'slow', 'color': 'green', 'points': 5}
+          {'speed': 'slow', 'color': 'green', 'points': 5}
+          {'speed': 'slow', 'color': 'green', 'points': 5}
+          ...
+          Total number of aliens: 30
+          
+
+#PROGRAM 3 :
+
+      aliens = []
+      for alien_number in range (0,30):
+        new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+        aliens.append(new_alien)
+
+      for alien in aliens[0:3]:
+         if alien['color'] == 'green':
+         alien['color'] = 'yellow'
+         alien['speed'] = 'medium'
+         alien['points'] = 10
+
+
+      for alien in aliens[0:5]:
+       print(alien)
+       print("...")
+       
+OUTPUT :  {'speed': 'medium', 'color': 'yellow', 'points': 10}
+          {'speed': 'medium', 'color': 'yellow', 'points': 10}
+          {'speed': 'medium', 'color': 'yellow', 'points': 10}
+          {'speed': 'slow', 'color': 'green', 'points': 5}
+          {'speed': 'slow', 'color': 'green', 'points': 5}
+          ...
+          
+          
+ 
+
+      
