@@ -1,0 +1,42 @@
+#PROGRAM 1 :
+
+    car = 'bmw'
+    car == 'bmw'
+      True
+      
+#PROGRAM 2 :
+
+    car = 'Audi'
+    car == 'audi'
+      False
+      
+#PROGRAM 3 : 
+
+    car = 'Audi'
+    car.lower() == 'audi'
+      True
+      
+#PROGRAM 4 :
+
+    requested_topping = 'mushrooms'
+    if requested_topping != 'anchovies':
+      print("Hold the anchovies!")
+      
+OUTPUT : Hold the anchovies!
+
+
+#PROGRAM 5 : 
+
+       age = 19
+       
+       age < 21
+       True
+       
+       age <= 21
+       True
+       
+       age > 21
+       False
+       
+       age >= 21
+       False
