@@ -1,0 +1,57 @@
+#PROGRAM 1 :
+
+     cars = ['audi', 'bmw', 'subaru', 'toyota']
+     for car in cars:
+       if car == 'bmw':
+          print(car.upper())
+       else:
+          print(car.title())
+          
+OUTPUT : Audi
+         BMW
+         Subaru
+         Toyota
+         
+#PROGRAM 2 :
+
+     age = 19
+     if age >= 18:
+       print("You are old enough to vote!")
+       print("Have you registered to vote yet?")
+ 
+OUTPUT : You are old enough to vote!
+         Have you registered to vote yet?
+         
+
+#PROGRAM 3 :
+      
+      age = 17
+      if age >= 18:
+        print("You are old enough to vote!")
+        print("Have you registered to vote yet?")
+      else:
+        print("Sorry, you are too young to vote.")
+        print("Please register to vote as soon as you turn 18!")
+        
+OUTPUT : Sorry, you are too young to vote.
+         Please register to vote as soon as you turn 18!
+         
+         
+#PROGRAM 4 :
+ 
+       age = 12
+       if age < 4:
+        print("Your admission cost is $0.")
+       elif age < 18:
+        print("Your admission cost is $5.")
+       else:
+        print("Your admission cost is $10.")
+        
+OUTPUT : Your admission cost is $5.
+
+
+#PROGRAM 5 : 
+
+    
+
+ 
