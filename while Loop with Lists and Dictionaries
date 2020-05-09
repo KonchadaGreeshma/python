@@ -1,0 +1,60 @@
+#PROGRAM 1 :
+
+      unconfirmed_users = ['alice', 'brian', 'candace']
+      confirmed_users = []
+       while unconfirmed_users:
+          current_user = unconfirmed_users.pop()
+          print("Verifying user: " + current_user.title())
+          confirmed_users.append(current_user)
+       print("\nThe following users have been confirmed:")
+       for confirmed_user in confirmed_users:
+          print(confirmed_user.title())
+          
+OUTPUT :  Verifying user: Candace
+          Verifying user: Brian
+          Verifying user: Alice
+          
+          The following users have been confirmed:
+          Candace
+          Brian
+          Alice
+          
+          
+#PROGRAM 2 :
+
+      pets = ['dog', 'cat', 'dog', 'goldfish', 'cat', 'rabbit', 'cat']
+      print(pets)
+      while 'cat' in pets:
+        pets.remove('cat')
+      print(pets)
+      
+OUTPUT : ['dog', 'cat', 'dog', 'goldfish', 'cat', 'rabbit', 'cat']
+         ['dog', 'dog', 'goldfish', 'rabbit']
+         
+         
+#PROGRAM 3 :
+
+      responses = {}
+      polling_active = True
+      while polling_active:
+          name = input("\nWhat is your name? ")
+          response = input("Which mountain would you like to climb someday? ")
+          responses[name] = response
+          repeat = input("Would you like to let another person respond? (yes/ no) ")
+          if repeat == 'no':
+            polling_active = False
+      print("\n--- Poll Results ---")
+      for name, response in responses.items():
+         print(name + " would like to climb " + response + ".")
+         
+         
+OUTPUT :  What is your name? Eric
+          Which mountain would you like to climb someday? Denali
+          Would you like to let another person respond? (yes/ no) yes
+          What is your name? Lynn
+          Which mountain would you like to climb someday? Devil's Thumb
+          Would you like to let another person respond? (yes/ no) no
+          
+          --- Poll Results ---
+          Lynn would like to climb Devil's Thumb.
+          Eric would like to climb Denali. 
