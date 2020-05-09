@@ -1,0 +1,21 @@
+#PROGRAM 1 :
+
+    def describe_pet(animal_type, pet_name):
+      print("\nI have a " + animal_type + ".")
+      print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+    describe_pet(animal_type='hamster', pet_name='harry')
+    
+OUTPUT : describe_pet(animal_type='hamster', pet_name='harry')
+         describe_pet(pet_name='harry', animal_type='hamster')
+         
+  
+ #PROGRAM 2 :
+ 
+      def describe_pet(pet_name, animal_type='dog'):
+        print("\nI have a " + animal_type + ".")
+        print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+      describe_pet(pet_name='willie')
+      
+OUTPUT : I have a dog.
+         My dog's name is Willie.
+      
