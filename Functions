@@ -1,0 +1,50 @@
+#PROGRAM 1 :
+
+     def greet_user():
+      print("Hello!")
+     greet_user()
+     
+OUTPUT : Hello!
+
+#PROGRAM 2 :
+
+    def greet_user(username):
+      print("Hello, " + username.title() + "!")
+    greet_user('jesse')
+    
+OUTPUT : Hello, Jesse!
+
+#PROGRAM 3 :
+
+       def describe_pet(animal_type, pet_name):
+          print("\nI have a " + animal_type + ".")
+          print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+       describe_pet('hamster', 'harry')
+       
+OUTPUT : I have a hamster.
+         My hamster's name is Harry.
+         
+
+#PROGRAM 4 :
+    
+    
+      def describe_pet(animal_type, pet_name):
+          print("\nI have a " + animal_type + ".")
+          print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+      describe_pet('hamster', 'harry')
+      describe_pet('dog', 'willie')
+      
+OUTPUT :  I have a hamster.
+          My hamster's name is Harry.
+          I have a dog.
+          My dog's name is Willie.
+          
+#PROGRAM 5 :
+
+      def describe_pet(animal_type, pet_name):
+        print("\nI have a " + animal_type + ".")
+        print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+      describe_pet('harry', 'hamster')
+
+OUTPUT : I have a harry.
+         My harry's name is Hamster.
