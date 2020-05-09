@@ -1,0 +1,68 @@
+#PROGRAM 1 :
+
+    message = input("Tell me something, and I will repeat it back to you: ")
+    print(message)
+    
+OUTPUT : Tell me something, and I will repeat it back to you: Hello everyone!
+         Hello everyone!
+         
+         
+#PROGRAM 2 :
+
+    name = input("Please enter your name: ")
+    print("Hello, " + name + "!")
+ 
+OUTPUT : Please enter your name: Eric
+         Hello, Eric!
+         
+#PROGRAM 3 : 
+
+    prompt = "If you tell us who you are, we can personalize the messages you see."
+    prompt += "\nWhat is your first name? "
+    name = input(prompt)
+    print("\nHello, " + name + "!")
+
+OUTPUT : If you tell us who you are, we can personalize the messages you see.
+         What is your first name? Eric
+         Hello, Eric!
+         
+         
+#PROGRAM 4 : 
+
+      height = input("How tall are you, in inches? ")
+      height = int(height)
+      if height >= 36:
+       print("\nYou're tall enough to ride!")
+      else:
+       print("\nYou'll be able to ride when you're a little older.")
+       
+OUTPUT : How tall are you, in inches? 71
+         You're tall enough to ride!
+         
+    
+
+#PROGRAM 5 :
+
+        4 % 3
+        1
+       
+        5 % 3
+        2
+       
+        6 % 3
+        0 
+        
+        7 % 3
+        1
+
+#PROGRAM 6 :
+
+      number = input("Enter a number, and I'll tell you if it's even or odd: ")
+      number = int(number)
+      if number % 2 == 0:
+       print("\nThe number " + str(number) + " is even.")
+      else:
+       print("\nThe number " + str(number) + " is odd.")
+       
+OUTPUT : Enter a number, and I'll tell you if it's even or odd: 42
+         The number 42 is even.
